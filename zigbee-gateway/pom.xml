@@ -11,7 +11,7 @@
     <groupId>ru.vizgalin</groupId>
     <artifactId>zigbee-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>smartHomeApplication</name>
+    <name>zigbee-gateway</name>
     <description>smartHomeApplication</description>
     <url/>
     <licenses>

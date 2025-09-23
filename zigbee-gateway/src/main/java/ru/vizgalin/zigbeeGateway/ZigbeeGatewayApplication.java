@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ZigbeeGateway {
+public class ZigbeeGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ZigbeeGateway.class, args);
+        SpringApplication.run(ZigbeeGatewayApplication.class, args);
     }
 
 }
