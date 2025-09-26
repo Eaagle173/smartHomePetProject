@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ru.vizgalin.deviceService.entity.device.Room;
 import ru.vizgalin.deviceService.facade.LightControllerFacade;
 
 @Validated
@@ -21,13 +20,13 @@ public class LightController {
 
 
     @PostMapping("/turnLightOnInRoom")
-    public String turnOnLight(@RequestParam String room) {
-        return lightControllerFacade.switchOn(room);
+    public ResponseEntity<String> lightTurnOn(@RequestParam String room) {
+        return ResponseEntity.ok(lightControllerFacade.switchOn(room));
     }
 
     @PostMapping("/turnLightOffInRoom")
-    public String turnOffLight(@RequestParam String room) {
-        return lightControllerFacade.switchOff(room);
+    public ResponseEntity<String> turnOffLight(@RequestParam String room) {
+        return ResponseEntity.ok(lightControllerFacade.switchOff(room));
     }
 
     @PostMapping("/createLightsRoom")
