@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DiffGenerationConfig">
+    <option name="snapshotDbValue" value="63d42d1c-9496-48f0-a59b-97f370cf4aad" />
+    <option name="sourceModelValue" value="device-service:device-service" />
+    <option name="targetDbValue" value="f6e763dc-4dc1-4f21-b266-02bd4434aa65" />
+    <option name="updateChangeLogPath" value="device-service/src/main/resources/db/changelog/db.changelog.xml" />
+    <option name="updateDbConnectionName" value="f6e763dc-4dc1-4f21-b266-02bd4434aa65" />
+  </component>
+</project>
